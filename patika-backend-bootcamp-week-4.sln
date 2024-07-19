@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console", "Console\Console.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatikaLibraryApp", "PatikaLibraryApp\PatikaLibraryApp.csproj", "{096065F2-D961-4ACB-8495-9060B1ECD0A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncapsulationIntro", "EncapsulationIntro\EncapsulationIntro.csproj", "{F656018D-464C-4255-8857-9F947393D447}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{096065F2-D961-4ACB-8495-9060B1ECD0A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{096065F2-D961-4ACB-8495-9060B1ECD0A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{096065F2-D961-4ACB-8495-9060B1ECD0A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F656018D-464C-4255-8857-9F947393D447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F656018D-464C-4255-8857-9F947393D447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F656018D-464C-4255-8857-9F947393D447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F656018D-464C-4255-8857-9F947393D447}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
