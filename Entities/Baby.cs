@@ -8,12 +8,30 @@ namespace Entities
 {
     public class Baby
     {
+        private DateTime _birthDate;
+        private string? _firstName;
+        private string? _lastName;
+
         //dogum tarihi
-        public DateTime BirthDate { get; set; }
+        public DateTime BirthDate
+        {
+            get { return _birthDate; }
+            set { _birthDate = value; }
+        }
+
         //ad
-        public string? FirstName { get; set; }
+        public string? FirstName
+        {
+            get { return _firstName; }
+            set { _firstName = value; }
+        }
+
         //soyad
-        public string? LastName { get; set; }
+        public string? LastName
+        {
+            get { return _lastName; }
+            set { _lastName = value; }
+        }
 
         //default constructor
         public Baby()
