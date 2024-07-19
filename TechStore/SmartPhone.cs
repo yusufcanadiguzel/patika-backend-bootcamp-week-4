@@ -15,6 +15,8 @@ namespace TechStore
         public SmartPhone(string? serialNumber, string? name, string? description, string? operatingSystem, bool isLicenced) : base(serialNumber, name, description, operatingSystem)
         {
             IsLicenced = isLicenced;
+
+            SuccessfulSave();
         }
 
         //prop

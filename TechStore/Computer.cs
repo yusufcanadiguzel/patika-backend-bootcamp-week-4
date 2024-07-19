@@ -15,6 +15,8 @@ namespace TechStore
         public Computer(string? serialNumber, string? name, string? description, string? operatingSystem, int usbPortCount) : base(serialNumber, name, description, operatingSystem)
         {
             UsbPortCount = usbPortCount;
+
+            SuccessfulSave();
         }
 
         //prop value'nin 2 ya da 4 olmamasi durumunda hata verir ve -1 atar
