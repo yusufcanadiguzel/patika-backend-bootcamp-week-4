@@ -3,21 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{87809923-E1CB-4D61-AD86-FB367AD38329}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console", "Console\Console.csproj", "{D0E1BA48-654B-41C5-A608-887559516791}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatikaLibraryApp", "PatikaLibraryApp\PatikaLibraryApp.csproj", "{096065F2-D961-4ACB-8495-9060B1ECD0A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatikaLibraryApp", "PatikaLibraryApp\PatikaLibraryApp.csproj", "{096065F2-D961-4ACB-8495-9060B1ECD0A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncapsulationIntro", "EncapsulationIntro\EncapsulationIntro.csproj", "{F656018D-464C-4255-8857-9F947393D447}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EncapsulationIntro", "EncapsulationIntro\EncapsulationIntro.csproj", "{F656018D-464C-4255-8857-9F947393D447}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceIntro", "InheritanceIntro\InheritanceIntro.csproj", "{560AEEE7-7573-484E-8DB0-66816A9AC591}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InheritanceIntro", "InheritanceIntro\InheritanceIntro.csproj", "{560AEEE7-7573-484E-8DB0-66816A9AC591}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolymorphismIntro", "PolymorphismIntro\PolymorphismIntro.csproj", "{4323A50B-5EEC-4569-99B0-4BF617E9A882}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PolymorphismIntro", "PolymorphismIntro\PolymorphismIntro.csproj", "{4323A50B-5EEC-4569-99B0-4BF617E9A882}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractionIntro", "AbstractionIntro\AbstractionIntro.csproj", "{877A7A76-D75F-4683-85F0-1D936D4E4332}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractionIntro", "AbstractionIntro\AbstractionIntro.csproj", "{877A7A76-D75F-4683-85F0-1D936D4E4332}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechStore", "TechStore\TechStore.csproj", "{94632B1D-40D1-4F8B-976C-1EB8A036DC31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechStore", "TechStore\TechStore.csproj", "{94632B1D-40D1-4F8B-976C-1EB8A036DC31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +23,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{87809923-E1CB-4D61-AD86-FB367AD38329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{87809923-E1CB-4D61-AD86-FB367AD38329}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{87809923-E1CB-4D61-AD86-FB367AD38329}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{87809923-E1CB-4D61-AD86-FB367AD38329}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D0E1BA48-654B-41C5-A608-887559516791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D0E1BA48-654B-41C5-A608-887559516791}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0E1BA48-654B-41C5-A608-887559516791}.Release|Any CPU.ActiveCfg = Release|Any CPU
