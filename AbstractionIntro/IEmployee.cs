@@ -8,5 +8,6 @@ namespace AbstractionIntro
 {
     internal interface IEmployee
     {
+        public void Work();
     }
 }
