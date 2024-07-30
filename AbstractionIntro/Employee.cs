@@ -29,5 +29,8 @@ namespace AbstractionIntro
         public string? LastName { get => _lastName; set => _lastName = value; }
         public string? Department { get => _department; set => _department = value; }
         public string? Role { get => _role; set => _role = value; }
+
+        //method
+        public abstract void Work();
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AbstractionIntro
 {
-    internal class SalesRepresentative : Employee, IEmployee
+    internal class SalesRepresentative : Employee
     {
         //ctor
         public SalesRepresentative(string? firstName, string? lastName, string? department, string? role) : base(firstName, lastName, department, role)
@@ -14,7 +14,7 @@ namespace AbstractionIntro
         }
 
         //method overriding
-        public void Work()
+        public override void Work()
         {
             Console.WriteLine($"{FirstName} {LastName} - {Department} - {Role} - Satış Yapılıyor...");
         }
