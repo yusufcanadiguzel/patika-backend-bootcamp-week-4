@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace InheritanceIntro
 {
-    public class Person
+    public abstract class Person
     {
         //field
         private string? _firstName;
