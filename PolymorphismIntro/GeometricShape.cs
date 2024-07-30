@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PolymorphismIntro
 {
-    public class GeometricShape
+    public abstract class GeometricShape
     {
         private float _height;
         private float _width;
